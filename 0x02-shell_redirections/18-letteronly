@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "^[0-9]" -v /etc/ssh/sshd_config | grep -v '^$'
+grep ^[a-z] -i /etc/ssh/sshd_config
