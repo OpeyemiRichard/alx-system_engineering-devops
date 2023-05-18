@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/ssh/sshd_config | grep "^[0-9]" -v
+grep "^[0-9]" -v /etc/ssh/sshd_config | grep -v '^$'
